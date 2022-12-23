@@ -1,4 +1,3 @@
-import com.sun.xml.internal.ws.binding.FeatureListUtil;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +11,11 @@ public class Main {
         Fxron.color="green";
         Fxron.size="737373km";
         Fxron.temp="-73378838k";
+
+        Planet1  stuart= new Planet1();
+        stuart.color="white";
+        stuart.size=2345;
+        stuart.rings=5;
+        stuart.temperature="-4848348k";
     }
 }
